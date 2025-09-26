@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Story_s">
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity.AjouterUnEvenement"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
